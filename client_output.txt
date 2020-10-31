@@ -1,0 +1,801 @@
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ gcc client.c
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 2
+enter username: Admin1
+enter password: Admin1
+
+===================Welcome admin: Admin1===================
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+1
+
+-----------------ADD USER-----------
+enter name of user to add: user1
+enter password of user to add: pass1
+username: user1 password: pass1
+
+enter single(0) user or joint user(1): 0
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+4
+
+-----------------SEARCH ACCOUNT-----------
+enter account number of the user to search the details:1001
+Account Details
+Account number = 1001
+balance= 0
+Account status= 1(active)
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+3
+
+------------------MODIFY ACCOUNT---------------
+Enter single user(0) or joint user(1): 0
+Enter Number of account which you want to modify: 1001
+You want to modify Account number(0) or
+Account status(1) (If you choose this then Account will be deleted): 0
+enter new account number: 1101
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+4
+
+-----------------SEARCH ACCOUNT-----------
+enter account number of the user to search the details:1101
+Account Details
+Account number = 1101
+balance= 0
+Account status= 1(active)
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+5
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 0
+enter username: user1
+enter password: pass1
+
+===================Welcome user: user1===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+3
+
+-----------------BALANCE ENQUIRY-----------
+user1
+Account Number is = 1101
+balance is = 0
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+4
+
+-----------------PASSWORD CHANGE-----------
+ Password Change 
+ Enter new password: passs1
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user1's Account Details are
+Password= passs1
+^C
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 0
+enter username: user1
+enter password: passs1
+
+===================Welcome user: user1===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user1's Account Details are
+Password= passs1
+Account number= 1101
+Normal user
+Account is active
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 0
+enter username: user1
+enter password: passs1
+
+===================Welcome user: user1===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+1
+
+-----------------DEPOSIT-----------
+
+Your Account Number is = 1101
+Enter amount(>=0) to deposit: 100
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+3
+
+-----------------BALANCE ENQUIRY-----------
+user1
+Account Number is = 1101
+balance is = 100
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+2
+
+-----------------WITHDRAW-----------
+Enter amount(>=0) to withdraw: 5 
+withdrawn
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+3
+
+-----------------BALANCE ENQUIRY-----------
+user1
+Account Number is = 1101
+balance is = 95
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 2
+enter username: Admin1
+enter password: Admin1
+
+===================Welcome admin: Admin1===================
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+2
+
+-----------------DELETE ACCOUNT-----------
+Enter single user(0) or joint user(1): 0
+enter account number to delete: 1101
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+4
+
+-----------------SEARCH ACCOUNT-----------
+enter account number of the user to search the details:1101
+Account Details
+Account number = 1101
+balance= 95
+Account status= 0(inactive)
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+5
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 0
+enter username: user1
+enter password: passs1
+
+===================Welcome user: user1===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+1
+
+-----------------DEPOSIT-----------
+Your account has been closed.
+You cannot Deposit!
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user1's Account Details are
+Password= passs1
+^C
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 0
+enter username: user1
+enter password: passs1
+
+===================Welcome user: user1===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user1's Account Details are
+Password= passs1
+Account number= 1101
+Normal user
+Account inactive
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 2
+enter username: Admin1
+enter password: Admin1
+
+===================Welcome admin: Admin1===================
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+1
+
+-----------------ADD USER-----------
+enter name of user to add: user2
+enter password of user to add: pas2
+username: user2 password: pas2
+
+enter single(0) user or joint user(1): 1
+Please enter account number for Joint Account: 2000
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+1
+
+-----------------ADD USER-----------
+enter name of user to add: user3
+enter password of user to add: pas3
+username: user3 password: pas3
+
+enter single(0) user or joint user(1): 1
+Please enter account number for Joint Account: 2000
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+4
+
+-----------------SEARCH ACCOUNT-----------
+enter account number of the user to search the details:2000
+Account Details
+Account number = 2000
+balance= 0
+Account status= 1(active)
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+5
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 1
+enter username: user2
+enter password: pas2
+
+===================Welcome Joint user: user2===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+3
+
+-----------------BALANCE ENQUIRY-----------
+user2
+Account Number is = 2000
+balance is = 0
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+4
+
+-----------------PASSWORD CHANGE-----------
+ Password Change 
+ Enter new password: pass2
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user2's Account Details are
+Password= pass2
+Account number= 2000
+Joint account
+Account is active
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 1
+enter username: user2
+enter password: pass2 
+
+===================Welcome Joint user: user2===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+1
+
+-----------------DEPOSIT-----------
+
+Your Account Number is = 2000
+Enter amount(>=0) to deposit: 100
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+3
+
+-----------------BALANCE ENQUIRY-----------
+user2
+Account Number is = 2000
+balance is = 99
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 2
+enter username: Admin1
+enter password: Admin1
+
+===================Welcome admin: Admin1===================
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+2
+
+-----------------DELETE ACCOUNT-----------
+Enter single user(0) or joint user(1): 1
+enter account number to delete: 2000
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+4
+
+-----------------SEARCH ACCOUNT-----------
+enter account number of the user to search the details:2000
+Account Details
+Account number = 2000
+balance= 99
+Account status= 0(inactive)
+
+choose one option:
+1.Add Account Details
+2.Delete Account Details
+3.Modify Account Details
+4.Search Account Details
+5. exit
+5
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 1
+enter username: user2
+enter password: pass2
+
+===================Welcome Joint user: user2===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user2's Account Details are
+Password= pass2
+^C
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 1
+enter username: user2
+enter password: pass2
+
+===================Welcome Joint user: user2===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user2's Account Details are
+Password= pass2
+Account number= 2000
+Joint account
+Account inactive
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+1
+
+-----------------DEPOSIT-----------
+Your account has been closed.
+You cannot Deposit!
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ 
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ gcc client.c
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 1
+enter username: user3
+enter password: pas3
+
+===================Welcome Joint user: user3===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+3
+
+-----------------BALANCE ENQUIRY-----------
+user3
+Account Number is = 2000
+balance is = 0
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+4
+
+-----------------PASSWORD CHANGE-----------
+ Password Change 
+ Enter new password: pass3
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user3's Account Details are
+Password= pass3
+Account number= 2000
+Joint account
+Account is active
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 1
+enter username: user3
+enter password: pass3
+
+===================Welcome Joint user: user3===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+2
+
+-----------------WITHDRAW-----------
+Enter amount(>=0) to withdraw: 1
+withdrawn
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+3
+
+-----------------BALANCE ENQUIRY-----------
+user3
+Account Number is = 2000
+balance is = 99
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+
+===================Welcome To Online Banking System===================
+You want to login as user(0) or joint(1) or Admin(2): 1
+enter username: user3
+enter password: pass3
+
+===================Welcome Joint user: user3===================
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+5
+
+-----------------VIEW DETAILS-----------
+user3's Account Details are
+Password= pass3
+Account number= 2000
+Joint account
+Account inactive
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+1
+
+-----------------DEPOSIT-----------
+Your account has been closed.
+You cannot Deposit!
+
+Choose one option:
+1.Deposit
+2.Withdraw
+3.Balance Enquiry
+4.Password change
+5.View details
+6.Exit
+6
+
+-----------------EXIT-----------
+Exiting.....
+
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ 
+
+

@@ -1,0 +1,8 @@
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ gcc server.c
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ ./a.out
+create admin
+enter username:Admin1
+enter password:Admin1
+^C
+apurva@apurva-Aspire-E5-573G:~/mtech2020/project/MT2020011$ 
+
